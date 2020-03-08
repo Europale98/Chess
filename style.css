@@ -1,0 +1,32 @@
+/*
+table {
+table-layout: fixed;
+
+border-collapse: collapse;
+}
+
+@media all and (orientation: portrait) {
+  td{
+  height:7vw;
+  width: 7vw;
+  border: solid;
+  }
+}
+
+@media all and (orientation: landscape) {
+  td{
+  height:8vh;
+  width: 8vh;
+  border: solid;
+  }
+}
+
+
+.chess tr:nth-child(even) td:nth-child(odd) {
+  background-color: black;
+}
+
+.chess tr:nth-child(odd) td:nth-child(even) {
+  background-color: black;
+}
+*/

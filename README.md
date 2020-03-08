@@ -1,2 +1,3 @@
-"# Chess" 
-"# Chess" 
+# Chess
+Jeu d'echecs en JavaScript.
+
