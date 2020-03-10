@@ -122,10 +122,10 @@ class Piece {
     else{context.fillRect((w * 0.5 - Square* 8 * 0.5)+this.getOldCol*Square,(0.5 * h)/8+this.getOldRow*Square, Square, Square); }
      
     if(this.getSelect===0){
-      img.src = "https://cdn.glitch.com/db3f10ea-50b3-4d76-8553-08f147f55642%2Fcavalier.png?v=1583759363337";
+      img.src = "https://cdn.glitch.com/db3f10ea-50b3-4d76-8553-08f147f55642%2FBlackPawn.png?v=1583834266782";
     }
     else if(this.getSelect===1){
-      img.src = "https://cdn.glitch.com/db3f10ea-50b3-4d76-8553-08f147f55642%2FcavalierSelect.png?v=1583759358204";
+      img.src = "https://cdn.glitch.com/db3f10ea-50b3-4d76-8553-08f147f55642%2FBlackPawnSelect.png?v=1583834225158";
     }
     this.setOldPosition(this.getColumn,this.getRow);
     function draw() {
